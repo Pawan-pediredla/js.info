@@ -18,5 +18,13 @@ async function agregateData(userid){
         console.log(error)
         throw error
     }
+    return {
+        user: details,
+        posts:post,
+        comments: comments
+    };
 }
-agregateData(1)
+agregateData(1).then((data)=>console.log(data))
+.catch((error)=>{
+    confirm.log(error)
+})
