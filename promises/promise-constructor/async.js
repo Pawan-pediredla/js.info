@@ -25,4 +25,8 @@ async function asyncFn(){
         console.log(error)
     }
 }
+<<<<<<< HEAD
 asyncFn()
+=======
+asyncFn()
+>>>>>>> 6a88ceb30b03c48c457dffd5daf3d6f2494bfcdc
