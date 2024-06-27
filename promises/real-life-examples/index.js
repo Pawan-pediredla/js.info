@@ -28,3 +28,32 @@ agregateData(1).then((data)=>console.log(data))
 .catch((error)=>{
     confirm.log(error)
 })
+console.log(y)
+var y =10;
+
+let person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    hobbies: ['reading', 'swimming'],
+    address: {
+        city: 'New York',
+        zipCode: '10001'
+    },
+    greet: function() {
+        return 'Hello!';
+    }
+};
+
+console.log(person.address.city)
+// Create an object person with properties name, age,
+let person2={
+    name:"jayadeep"
+    ,
+    age:17,
+    greet:function(){
+        console.log(`"hi im " ${this.name}`)
+    }
+    
+}
+person2.greet()
